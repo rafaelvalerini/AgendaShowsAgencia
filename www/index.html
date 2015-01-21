@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html class="ui-mobile-rendering">
+<head>
+	<title></title>
+	<meta charset="utf-8" />
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="css/themes/agenda-shows.min.css" />
+	<link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.3.min.css" />
+
+	<link rel="stylesheet" href="css/index.css" />
+
+	<link rel="stylesheet" href="css/smoothDivScroll.css" />
+	
+	<script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=true"></script>
+	<script type="text/javascript" src="cordova.js"></script>
+	
+	<script src="js/libs/jquery-1.11.1.min.js"></script>
+	<script src="js/libs/jquery.mobile-1.4.3.min.js"></script>
+	
+	<script type="text/javascript" src="jquery.base64.js"></script>
+		
+	<script src="js/jquery.kinetic.min.js"></script>	
+	<script src="js/jquery.mousewheel.min.js"></script>	
+	<script src="js/jquery.smoothdivscroll-1.3-min.js"></script>		
+	
+</head>
+
+<body>
+    <div data-role="page" id="principal">
+ 
+        <div data-role="header">
+			<a href="#panel-01" class="ui-btn ui-shadow ui-corner-all ui-icon-bars ui-btn-icon-notext"></a>
+			<h1>Agenda Shows - Agência</h1>
+        </div>
+ 
+        <div data-role="content">
+			<ul data-role="listview" data-theme="b" data-inset="true">
+			    <li><a href="#luanSantana">
+			        <img src="./img/luan-santana.jpg" style="top: 22px;">
+				    <h2>Luan Santana</h2>
+				    <p>Show Milagres</p></a>
+			    </li>
+				<li><a href="#luanSantana">
+				        <img src="./img/leonardo.jpg" style="top: 22px;">
+				    <h2>Leonardo</h2>
+				    <p>Show Cabaré</p></a>
+			    </li>
+				<li><a href="#luanSantana">
+				        <img src="./img/eduardo-costa.jpg" style="top: 22px;">
+				    <h2>Eduardo Costa</h2>
+				    <p>Show Cabaré</p></a>
+			    </li>
+				<li><a href="#luanSantana">
+				        <img src="./img/ivete-sangalo.jpg" style="top: 22px;">
+				    <h2>Ivete Sangalo</h2>
+				    <p>Show Mil e uma noites</p></a>
+			    </li>
+			</ul>
+        </div>
+ 
+		<div class="panel left" data-role="panel" data-position="left" data-display="push" id="panel-01">  
+			<ul>  
+				<li><a href="#principal" title="Home">Agenda</a></li>  
+				<li><a href="#disponiveis" title="Profile">Shows Disponíveis</a></li>  
+				<li><a href="#artistas" title="Setting">Artistas</a></li>  
+			</ul>  
+		</div> 
+ 
+        <div data-role="footer" data-position="fixed">
+            <h4>
+				2015
+			</h4>
+        </div>
+ 
+    </div>
+	
+	<div data-role="page" id="disponiveis">
+ 
+        <div data-role="header">
+			<a href="#panel-01" class="ui-btn ui-shadow ui-corner-all ui-icon-bars ui-btn-icon-notext"></a>
+			<h1>Agenda Shows - Agência</h1>
+        </div>
+ 
+        <div data-role="content">
+			<ul data-role="listview" data-theme="b" data-inset="true">
+			    <li><a href="#luanSantana">
+			        <img src="./img/luan-santana.jpg" style="top: 22px;">
+				    <h2>Luan Santana</h2>
+				    <p>10/10/2015</p></a>
+			    </li>
+				<li><a href="#luanSantana">
+			        <img src="./img/luan-santana.jpg" style="top: 22px;">
+				    <h2>Luan Santana</h2>
+				    <p>11/10/2015</p></a>
+			    </li>
+				<li><a href="#luanSantana">
+			        <img src="./img/luan-santana.jpg" style="top: 22px;">
+				    <h2>Luan Santana</h2>
+				    <p>12/10/2015</p></a>
+			    </li>
+				<li><a href="#luanSantana">
+			        <img src="./img/luan-santana.jpg" style="top: 22px;">
+				    <h2>Luan Santana</h2>
+				    <p>13/10/2015</p></a>
+			    </li>
+			</ul>
+        </div>
+ 
+		<div class="panel left" data-role="panel" data-position="left" data-display="push" id="panel-01">  
+			<ul>  
+				<li><a href="#principal" title="Home">Agenda</a></li>  
+				<li><a href="#disponiveis" title="Profile">Shows Disponíveis</a></li>  
+				<li><a href="#artistas" title="Setting">Artistas</a></li>  
+			</ul>  
+		</div> 
+ 
+        <div data-role="footer" data-position="fixed">
+            <h4>
+				2015
+			</h4>
+        </div>
+    </div>
+	
+	<div data-role="page" id="artistas">
+ 
+        <div data-role="header">
+			<a href="#panel-01" class="ui-btn ui-shadow ui-corner-all ui-icon-bars ui-btn-icon-notext"></a>
+			<h1>Agenda Shows - Agência</h1>
+        </div>
+ 
+        <div data-role="content">
+			<ul data-role="listview" data-theme="b" data-inset="true">
+			    <li><a href="#luanSantana">
+			        <img src="./img/luan-santana.jpg" style="top: 22px;">
+				    <h2>Luan Santana</h2>
+				    <p>10/10/2015</p></a>
+			    </li>
+				<li><a href="#luanSantana">
+			        <img src="./img/luan-santana.jpg" style="top: 22px;">
+				    <h2>Luan Santana</h2>
+				    <p>11/10/2015</p></a>
+			    </li>
+				<li><a href="#luanSantana">
+			        <img src="./img/luan-santana.jpg" style="top: 22px;">
+				    <h2>Luan Santana</h2>
+				    <p>12/10/2015</p></a>
+			    </li>
+				<li><a href="#luanSantana">
+			        <img src="./img/luan-santana.jpg" style="top: 22px;">
+				    <h2>Luan Santana</h2>
+				    <p>13/10/2015</p></a>
+			    </li>
+			</ul>
+        </div>
+ 
+		<div class="panel left" data-role="panel" data-position="left" data-display="push" id="panel-01">  
+			<ul>  
+				<li><a href="#principal" title="Home">Agenda</a></li>  
+				<li><a href="#disponiveis" title="Profile">Shows Disponíveis</a></li>  
+				<li><a href="#artistas" title="Setting">Artistas</a></li>  
+			</ul>  
+		</div> 
+ 
+        <div data-role="footer" data-position="fixed">
+            <h4>
+				2015
+			</h4>
+        </div>
+ 
+    </div>
+	
+	<div data-role="page" id="luansantana">
+ 
+        <div data-role="header">
+			<a href="#panel-01" class="ui-btn ui-shadow ui-corner-all ui-icon-bars ui-btn-icon-notext"></a>
+			<h1>Agenda Shows - Agência</h1>
+        </div>
+ 
+        <div data-role="content">
+				<ul data-role="listview" data-theme="b" data-inset="true">
+			    <li><a href="#luanSantana">
+			        <img src="./img/luan-santana.jpg" style="top: 22px;">
+				    <h2>Luan Santana</h2>
+				    <p>10/10/2015</p></a>
+			    </li>
+				<li><a href="#luanSantana">
+			        <img src="./img/luan-santana.jpg" style="top: 22px;">
+				    <h2>Luan Santana</h2>
+				    <p>11/10/2015</p></a>
+			    </li>
+				<li><a href="#luanSantana">
+			        <img src="./img/luan-santana.jpg" style="top: 22px;">
+				    <h2>Luan Santana</h2>
+				    <p>12/10/2015</p></a>
+			    </li>
+				<li><a href="#luanSantana">
+			        <img src="./img/luan-santana.jpg" style="top: 22px;">
+				    <h2>Luan Santana</h2>
+				    <p>13/10/2015</p></a>
+			    </li>
+			</ul>
+        </div>
+ 
+		<div class="panel left" data-role="panel" data-position="left" data-display="push" id="panel-01">  
+			<ul>  
+				<li><a href="#principal" title="Home">Agenda</a></li>  
+				<li><a href="#disponiveis" title="Profile">Shows Disponíveis</a></li>  
+				<li><a href="#artistas" title="Setting">Artistas</a></li>  
+			</ul>  
+		</div> 
+ 
+        <div data-role="footer" data-position="fixed">
+            <h4>
+				2015
+			</h4>
+        </div>
+ 
+    </div>
+</body>
+</html>
